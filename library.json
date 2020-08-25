@@ -4,7 +4,7 @@
     "name": "mycroft",
     "url": "https://github.com/thorstenMueller",
     "compatibility": {
-        "version": "5.4"
+        "version": "5.0"
     },
     "version": "1.0",
     "build": 0,
