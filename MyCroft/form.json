@@ -1,0 +1,1156 @@
+{
+    "elements": [
+      {
+        "type": "Label",
+        "caption": "MyCroft Modul!"
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeLightSwitchPanel",
+        "caption": "Light (Switch)",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceLightSwitch",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Switch Variable",
+                "name": "PowerControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeLightDimmerPanel",
+        "caption": "Light (Dimmer)",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceLightDimmer",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Variable",
+                "name": "BrightnessControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeLightColorPanel",
+        "caption": "Light (Color)",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceLightColor",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Variable",
+                "name": "ColorControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeLightExpertPanel",
+        "caption": "Light (Expert)",
+        "visible": false,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceLightExpert",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Switch Variable",
+                "name": "PowerControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Brightness Variable",
+                "name": "BrightnessOnlyControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Color Variable",
+                "name": "ColorOnlyControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeLockPanel",
+        "caption": "Lock",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceLock",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Variable",
+                "name": "LockControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeTemperatureSensorPanel",
+        "caption": "Temperature Sensor",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceTemperatureSensor",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "SensorVariable",
+                "name": "TemperatureSensorID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": [
+              {
+                "Status": "OK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeThermostatPanel",
+        "caption": "Thermostat",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceThermostat",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Variable",
+                "name": "ThermostatControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeSpeakerPanel",
+        "caption": "Speaker",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceSpeaker",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Variable",
+                "name": "SpeakerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeSpeakerMuteablePanel",
+        "caption": "Speaker (Muteable)",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceSpeakerMuteable",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Volume Variable",
+                "name": "SpeakerMuteableVolumeID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Mute Variable",
+                "name": "SpeakerMuteableMuteID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeTelevisionPanel",
+        "caption": "Television",
+        "visible": false,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceTelevision",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Switch Variable",
+                "name": "PowerControllerID",
+                "width": "150px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Channel Variable",
+                "name": "ChannelControllerID",
+                "width": "150px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Volume Variable",
+                "name": "SpeakerMuteableVolumeID",
+                "width": "150px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Mute Variable",
+                "name": "SpeakerMuteableMuteID",
+                "width": "150px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Input Variable",
+                "name": "InputControllerID",
+                "width": "150px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Supported Inputs",
+                "name": "InputControllerSupported",
+                "width": "150px",
+                "add": [],
+                "visible": false,
+                "edit": {
+                  "type": "List",
+                  "rowCount": 61,
+                  "columns": [
+                    {
+                      "caption": "Input",
+                      "name": "name",
+                      "width": "auto"
+                    },
+                    {
+                      "caption": "",
+                      "name": "selected",
+                      "width": "24px",
+                      "add": false,
+                      "edit": {
+                        "type": "CheckBox"
+                      }
+                    }
+                  ],
+                  "values": [
+                    {
+                      "name": "AUX 1"
+                    },
+                    {
+                      "name": "AUX 2"
+                    },
+                    {
+                      "name": "AUX 3"
+                    },
+                    {
+                      "name": "AUX 4"
+                    },
+                    {
+                      "name": "AUX 5"
+                    },
+                    {
+                      "name": "AUX 6"
+                    },
+                    {
+                      "name": "AUX 7"
+                    },
+                    {
+                      "name": "BLURAY"
+                    },
+                    {
+                      "name": "CABLE"
+                    },
+                    {
+                      "name": "CD"
+                    },
+                    {
+                      "name": "COAX 1"
+                    },
+                    {
+                      "name": "COAX 2"
+                    },
+                    {
+                      "name": "COMPOSITE 1"
+                    },
+                    {
+                      "name": "DVD"
+                    },
+                    {
+                      "name": "GAME"
+                    },
+                    {
+                      "name": "HD RADIO"
+                    },
+                    {
+                      "name": "HDMI 1"
+                    },
+                    {
+                      "name": "HDMI 2"
+                    },
+                    {
+                      "name": "HDMI 3"
+                    },
+                    {
+                      "name": "HDMI 4"
+                    },
+                    {
+                      "name": "HDMI 5"
+                    },
+                    {
+                      "name": "HDMI 6"
+                    },
+                    {
+                      "name": "HDMI 7"
+                    },
+                    {
+                      "name": "HDMI 8"
+                    },
+                    {
+                      "name": "HDMI 9"
+                    },
+                    {
+                      "name": "HDMI 10"
+                    },
+                    {
+                      "name": "HDMI ARC"
+                    },
+                    {
+                      "name": "INPUT 1"
+                    },
+                    {
+                      "name": "INPUT 2"
+                    },
+                    {
+                      "name": "INPUT 3"
+                    },
+                    {
+                      "name": "INPUT 4"
+                    },
+                    {
+                      "name": "INPUT 5"
+                    },
+                    {
+                      "name": "INPUT 6"
+                    },
+                    {
+                      "name": "INPUT 7"
+                    },
+                    {
+                      "name": "INPUT 8"
+                    },
+                    {
+                      "name": "INPUT 9"
+                    },
+                    {
+                      "name": "INPUT 10"
+                    },
+                    {
+                      "name": "IPOD"
+                    },
+                    {
+                      "name": "LINE 1"
+                    },
+                    {
+                      "name": "LINE 2"
+                    },
+                    {
+                      "name": "LINE 3"
+                    },
+                    {
+                      "name": "LINE 4"
+                    },
+                    {
+                      "name": "LINE 5"
+                    },
+                    {
+                      "name": "LINE 6"
+                    },
+                    {
+                      "name": "LINE 7"
+                    },
+                    {
+                      "name": "MEDIA PLAYER"
+                    },
+                    {
+                      "name": "OPTICAL 1"
+                    },
+                    {
+                      "name": "OPTICAL 2"
+                    },
+                    {
+                      "name": "PHONO"
+                    },
+                    {
+                      "name": "PLAYSTATION"
+                    },
+                    {
+                      "name": "PLAYSTATION 3"
+                    },
+                    {
+                      "name": "PLAYSTATION 4"
+                    },
+                    {
+                      "name": "SATELLITE"
+                    },
+                    {
+                      "name": "SMARTCAST"
+                    },
+                    {
+                      "name": "TUNER"
+                    },
+                    {
+                      "name": "TV"
+                    },
+                    {
+                      "name": "USB DAC"
+                    },
+                    {
+                      "name": "VIDEO 1"
+                    },
+                    {
+                      "name": "VIDEO 2"
+                    },
+                    {
+                      "name": "VIDEO 3"
+                    },
+                    {
+                      "name": "XBOX"
+                    }
+                  ]
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeShutterPanel",
+        "caption": "Shutter",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceShutter",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Shutter Variable",
+                "name": "RangeControllerShutterID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeGenericSwitchPanel",
+        "caption": "Generic Switch",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceGenericSwitch",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Switch Variable",
+                "name": "PowerControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeGenericSliderPanel",
+        "caption": "Generic Slider",
+        "visible": true,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceGenericSlider",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Variable",
+                "name": "PercentageControllerID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectVariable"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeSimpleScenePanel",
+        "caption": "Scenes",
+        "visible": false,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceSimpleScene",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "Script",
+                "name": "SceneControllerSimpleID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectScript"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "ExpansionPanel",
+        "name": "DeviceTypeDeactivatableScenePanel",
+        "caption": "Scenes (Deactivatable)",
+        "visible": false,
+        "items": [
+          {
+            "type": "List",
+            "name": "DeviceDeactivatableScene",
+            "rowCount": 5,
+            "add": true,
+            "delete": true,
+            "sort": {
+              "column": "Name",
+              "direction": "ascending"
+            },
+            "columns": [
+              {
+                "label": "ID",
+                "name": "ID",
+                "width": "35px",
+                "add": "",
+                "save": true
+              },
+              {
+                "label": "Name",
+                "name": "Name",
+                "width": "auto",
+                "add": "",
+                "edit": {
+                  "type": "ValidationTextBox"
+                }
+              },
+              {
+                "label": "ActivateScript",
+                "name": "SceneControllerDeactivatableActivateID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectScript"
+                }
+              },
+              {
+                "label": "DeactivateScript",
+                "name": "SceneControllerDeactivatableDeactivateID",
+                "width": "250px",
+                "add": 0,
+                "edit": {
+                  "type": "SelectScript"
+                }
+              },
+              {
+                "label": "Status",
+                "name": "Status",
+                "width": "100px",
+                "add": "-"
+              }
+            ],
+            "values": []
+          }
+        ]
+      },
+      {
+        "type": "PopupButton",
+        "caption": "Expert Options",
+        "popup": {
+          "caption": "Expert Options",
+          "items": [
+            {
+              "type": "Label",
+              "caption": "Please check the documentation before handling these settings. These settings do not need to be changed under regular circumstances."
+            },
+            {
+              "type": "CheckBox",
+              "caption": "Emulate Status",
+              "name": "EmulateStatus"
+            },
+            {
+              "type": "CheckBox",
+              "caption": "Show Expert Devices",
+              "name": "ShowExpertDevices",
+              "onChange": "AA_UIUpdateExpertVisibility($id, $ShowExpertDevices);"
+            }
+          ]
+        }
+      }
+    ],
+    "translations": {
+      "de": {
+        "No name": "Kein Name",
+        "Name": "Name",
+        "ID": "ID",
+        "Status": "Status",
+        "Error: Symcon Connect is not active!": "Fehler: Symcon Connect ist nicht aktiv!",
+        "Status: Symcon Connect is OK!": "Status: Symcon Connect ist OK!",
+        "Expert Options": "Expertenoptionen",
+        "Please check the documentation before handling these settings. These settings do not need to be changed under regular circumstances.": "Bitte prüfen Sie die Dokumentation bevor Sie diese Einstellungen anpassen. Diese Einstellungen müssen unter normalen Umständen nicht verändert werden.",
+        "Emulate Status": "Status emulieren",
+        "Show Expert Devices": "Expertengeräte anzeigen",
+        "Scenes (Deactivatable)": "Szenen (deaktivierbar)",
+        "ActivateScript": "AktivierenSkript",
+        "DeactivateScript": "DeaktivierenSkript",
+        "Generic Slider": "Generischer Slider",
+        "Variable": "Variable",
+        "Generic Switch": "Generischer Schalter",
+        "Switch Variable": "Schaltervariable",
+        "Light (Color)": "Licht (Farbe)",
+        "Light (Dimmer)": "Licht (Dimmer)",
+        "Light (Expert)": "Licht (Experte)",
+        "Brightness Variable": "Helligkeitsvariable",
+        "Color Variable": "Farbvariable",
+        "Light (Switch)": "Licht (Schalter)",
+        "Lock": "Schloss",
+        "Shutter": "Rollladen",
+        "Shutter Variable": "Rollladen Variable",
+        "Scenes": "Szenen",
+        "Script": "Skript",
+        "Speaker (Muteable)": "Lautsprecher mit Stummschaltung",
+        "Volume Variable": "Lautstärkevariable",
+        "Mute Variable": "Stummvariable",
+        "Speaker": "Lautsprecher",
+        "Television": "Fernsehgerät",
+        "Channel Variable": "Kanalvariable",
+        "Supported Inputs": "Unterstützte Eingänge",
+        "Temperature Sensor": "Temperatursensor",
+        "Thermostat": "Thermostat"
+      }
+    }
+  }
